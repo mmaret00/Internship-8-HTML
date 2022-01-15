@@ -1,0 +1,23 @@
+.quote {
+  background-color: white;
+}
+
+.quote__phrase {
+  color: #273c48;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 150px 300px 20px 300px;
+  text-align: center;
+  background-color: white;
+}
+
+.quote__author {
+  text-align: center;
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  color: #979797;
+  font-size: 11px;
+  font-weight: bolder;
+  background-color: white;
+  padding-bottom: 50px;
+}
