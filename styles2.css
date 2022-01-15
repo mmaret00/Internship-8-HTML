@@ -1,0 +1,26 @@
+.demographics {
+  padding-top: 60px;
+  font-size: 0;
+}
+
+.demographics__text {
+  background-color: #ffc40c;
+  width: 20%;
+  color: #2a2a2a;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-size: 33px;
+  padding: 150px 150px 150px 150px;
+  display: inline-block;
+  vertical-align: top;
+  height: auto;
+}
+
+.demographics__image {
+  background-image: url(./assets/diplomacy.jpg);
+  background-size: cover;
+  width: 55%;
+  height: 561px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-right: 15px;
+}
