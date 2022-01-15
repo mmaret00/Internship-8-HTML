@@ -1,0 +1,140 @@
+* {
+  background-color: #f4f4f2;
+  margin: 0;
+  padding: 0;
+}
+
+.hyperlink {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  padding: 60px 0 60px 0;
+}
+
+.header__title {
+  font-family: Jubilat, Georgia, sans-serif;
+  color: #273c48;
+  font-size: 50px;
+}
+
+.header__subtitle {
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+}
+
+.collaborations {
+  width: 78%;
+  margin: auto;
+  margin-bottom: 60px;
+  background-color: white;
+}
+
+.collaborations__left {
+  width: 42%;
+  background-color: white;
+  display: inline-block;
+  padding-bottom: 20%;
+}
+
+.collaborations__left__title {
+  font-size: 23px;
+  color: #273c48;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-weight: 300;
+  background-color: white;
+  padding: 0 10% 5% 10%;
+}
+
+.collaborations__left__subtitle {
+  font-family: Lato;
+  color: #686868;
+  font-size: 18px;
+  background-color: white;
+  padding: 0 10% 0 10%;
+}
+
+.collaborations__right {
+  background-image: linear-gradient(0deg, black, transparent 50%),
+    url(./assets/teaching.png);
+  background-size: cover;
+  width: 57.5%;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.collaborations__right__surtitle {
+  font-family: "Brandon Grotesque", Arial, sans-serif;
+  font-size: 13px;
+  background-color: transparent;
+  color: white;
+  padding: 45% 5% 5% 5%;
+}
+
+.collaborations__right__title {
+  background-color: transparent;
+  color: white;
+  font-family: Jubilat, Georgia, sans-serif;
+  font-weight: lighter;
+  padding: 0 5% 5% 5%;
+}
+
+.chapters-and-toolkit-pictures {
+  margin: auto;
+  width: 75%;
+  font-size: 0;
+}
+
+.chapters-and-toolkit-pictures__first-picture {
+  width: 450px;
+  height: 225px;
+  background-image: url(./assets/party.png);
+  background-size: cover;
+  display: inline-block;
+}
+
+.chapters-and-toolkit-pictures__second-picture {
+  width: 450px;
+  height: 225px;
+  background-image: url(./assets/book.png);
+  background-size: cover;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.chapters-and-toolkit-text {
+  margin: auto;
+  width: 75%;
+  font-size: 0;
+}
+
+.chapters-and-toolkit-text__chapters {
+  width: 450px;
+  padding-top: 10px;
+  display: inline-block;
+  background-color: #ffc40c;
+}
+
+.chapters-and-toolkit-text__toolkit {
+  width: 450px;
+  margin-left: 20px;
+  padding-top: 10px;
+  display: inline-block;
+  background-color: #ffc40c;
+}
+
+.chapters-and-toolkit-text__title {
+  font-family: Jubilat, Georgia, sans-serif;
+  font-size: 23px;
+  color: #273c48;
+  padding: 50px 30px 20px 30px;
+}
+
+.chapters-and-toolkit-text__subtitle {
+  font-family: Lato, Arial, sans-serif;
+  color: #686868;
+  font-size: 18px;
+  padding: 0 30px 0 30px;
+}
