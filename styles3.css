@@ -1,10 +1,20 @@
+@font-face {
+  font-family: "Jubilat Bold";
+  src: url("./assets/fonts/Jubilat-Bold.otf");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("./assets/fonts/BrandonGrotesque-Regular.otf");
+}
+
 .quote {
   background-color: white;
 }
 
 .quote__phrase {
   color: #273c48;
-  font-family: Jubilat, Georgia, sans-serif;
+  font-family: "Jubilat Bold", Georgia, sans-serif;
   font-size: 50px;
   font-weight: bold;
   padding: 150px 300px 20px 300px;
@@ -13,11 +23,12 @@
 }
 
 .quote__author {
-  text-align: center;
   font-family: "Brandon Grotesque", Arial, sans-serif;
   color: #979797;
   font-size: 11px;
+  letter-spacing: 1px;
   font-weight: bolder;
-  background-color: white;
   padding-bottom: 50px;
+  text-align: center;
+  background-color: white;
 }
