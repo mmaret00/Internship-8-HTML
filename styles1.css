@@ -13,16 +13,35 @@
   padding: 60px 0 60px 0;
 }
 
+@font-face {
+  font-family: "Jubilat Light";
+  src: url("./assets/fonts/Jubilat-Light.otf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url("./assets/fonts/Lato-Regular.otf");
+}
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  src: url("./assets/fonts/BrandonGrotesque-Regular.otf");
+}
+
 .header__title {
-  font-family: Jubilat, Georgia, sans-serif;
+  font-family: "Jubilat Light", Georgia, sans-serif;
   color: #273c48;
   font-size: 50px;
+  font-weight: lighter;
 }
 
 .header__subtitle {
-  font-family: Lato, Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   color: #686868;
   font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 0.5px;
+  font-weight: 100;
 }
 
 .collaborations {
@@ -40,20 +59,25 @@
 }
 
 .collaborations__left__title {
-  font-size: 23px;
   color: #273c48;
-  font-family: Jubilat, Georgia, sans-serif;
-  font-weight: 300;
+  font-family: "Jubilat Light", Georgia, sans-serif;
   background-color: white;
   padding: 0 10% 5% 10%;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.4px;
 }
 
 .collaborations__left__subtitle {
-  font-family: Lato;
+  font-family: "Lato";
   color: #686868;
-  font-size: 18px;
   background-color: white;
-  padding: 0 10% 0 10%;
+  padding: 0 10%;
+  font-size: 18px;
+  font-weight: lighter;
+  line-height: 25px;
+  letter-spacing: 0.5px;
 }
 
 .collaborations__right {
@@ -71,12 +95,14 @@
   background-color: transparent;
   color: white;
   padding: 45% 5% 5% 5%;
+  letter-spacing: 0.5px;
+  font-weight: bolder;
 }
 
 .collaborations__right__title {
   background-color: transparent;
   color: white;
-  font-family: Jubilat, Georgia, sans-serif;
+  font-family: "Jubilat Light", Georgia, sans-serif;
   font-weight: lighter;
   padding: 0 5% 5% 5%;
 }
@@ -126,15 +152,20 @@
 }
 
 .chapters-and-toolkit-text__title {
-  font-family: Jubilat, Georgia, sans-serif;
-  font-size: 23px;
+  font-family: "Jubilat Light", Georgia, sans-serif;
+  font-size: 33px;
   color: #273c48;
   padding: 50px 30px 20px 30px;
+  line-height: 40px;
+  font-weight: 300;
+  text-align: left;
+  letter-spacing: 0.4px;
 }
 
 .chapters-and-toolkit-text__subtitle {
-  font-family: Lato, Arial, sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   color: #686868;
   font-size: 18px;
-  padding: 0 30px 0 30px;
+  padding: 0 30px;
+  line-height: 25px;
 }
